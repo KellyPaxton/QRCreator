@@ -10,17 +10,15 @@
 </head>
 <body>
     <div id="container">
-        <h1>QRCreator</h1>
-        <p>paste a url below to create a QR code.</p>
-        <input type="url" id="input" placeholder="Paste URL...">
-    <br>
-        <button type="submit" id="button" onclick="createQRCode()">Create QR Code</button>
-    <br>
-        <button 
-            id="save" type="submit" onclick="printDiv()">Print QR Code</button> 
+            <h1>QRCreator</h1>
+            <p>paste a url below to create a QR code.</p>
+            <input type="url" id="input" placeholder="Paste URL...">
+        <br>
+            <button type="submit" id="button" onclick="createQRCode()">Create QR Code</button>
+        <br>
+            <button id="save" type="submit" onclick="printDiv()">Print QR Code</button> 
     </div>
-
-    <div id="code">
+        <div id="code">
         <div id=qrcode></div>    
         <img src="https://www.millerequipmentsales.com/siteart/Miller-Equipment-and-Truck-Sales-LLC-logo.png" id="center"></img>
     </div>
