@@ -2,11 +2,109 @@ body {
     background-color: black;
 }
 
+#container {
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -45px;
+    margin-top: -140px;
+}
+
+h1 {
+    color: rgb(250, 246, 246); 
+    font-size: 52px;
+    margin-left: 55px;
+}
+
+p {
+    color: cornsilk; 
+    margin-left: 90px; 
+    margin-top: -40px; 
+    font-size: 14px;
+}
+
+#input {
+    color: rgb(247, 245, 245); 
+    background-color: rgb(56, 56, 55); 
+    height: 30px; 
+    width: 400px; 
+    font-size: 14px; 
+    margin-top: 28px; 
+    border-radius: 0.5rem; 
+    border: none; 
+    outline: none; 
+    text-align: center; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#button {
+    background-color: rgb(252, 252, 249); 
+    margin-top: 17px;
+    margin-left: 105px; 
+    width: 175px; 
+    height: 30px; 
+    cursor: pointer; 
+    color: rgb(5, 5, 5); 
+    border-radius: 0.5rem; 
+    font-size: 14px; 
+    outline: none; 
+    border: none; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
 #button:hover {
     transform: scale(1.1);
 }
+
+#save {
+    position: relative; 
+    background-color: rgb(252, 252, 249); 
+    margin-top: 17px;
+    margin-left: 105px; 
+    width: 175px; 
+    height: 30px; 
+    cursor: pointer; 
+    color: rgb(5, 5, 5); 
+    border-radius: 0.5rem; 
+    font-size: 14px; 
+    outline: none; 
+    border: none; 
+    font-family: 'Courier New', Courier, monospace; 
+    display: none;
+}
+
 #save:hover {
     transform: scale(1.1);
+}
+
+#qrcode {
+    position:fixed; 
+    top:50%; 
+    left:50%; 
+    margin-top:-125px; 
+    margin-left:-350px; 
+    height:255px; 
+    width:255px; 
+    background-color: white; 
+    border: 5px solid white; 
+    border-radius: 5%; 
+    align-content: center; 
+    padding: 1%;
+}
+
+#center {
+    width: 160px; 
+    height:40px; 
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    margin-left:-277px; 
+    margin-top: -13px; 
+    background-color: #FFF; 
+    border-radius: 5%; 
+    display: none; 
+    float: left; 
+    padding: 0.5%;
 }
 
 #footer {
@@ -15,12 +113,4 @@ body {
     top:97%; 
     left:100%; 
     margin-left: -180px;
-}
-
-#container {
-    position:fixed;
-    top: 50%;
-    left: 50%;
-    margin-left: -45px;
-    margin-top: -140px;
 }

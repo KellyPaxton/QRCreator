@@ -12,25 +12,19 @@
 
 <body>
     <div id="container">
-        <h1 style="color: rgb(250, 246, 246); font-size: 52px;margin-left: 55px;">QRCreator</h1>
-        <p style="color: cornsilk; margin-left: 90px; margin-top: -40px; font-size: 14px;">paste a url below to create a
-            QR code.</p>
-        <input
-            style="color: rgb(247, 245, 245); background-color: rgb(56, 56, 55); height: 30px; width: 400px; font-size: 14px; margin-top: 28px; border-radius: 0.5rem; border: none; outline: none; text-align: center; font-family: 'Courier New', Courier, monospace;"
-            type="url" id="input" placeholder="Paste URL...">
+        <h1>QRCreator</h1>
+        <p>paste a url below to create a QR code.</p>
+        <input type="url" id="input" placeholder="Paste URL...">
     <br>
-        <button
-            style="background-color: rgb(252, 252, 249); margin-top: 17px;margin-left: 105px; width: 175px; height: 30px; cursor: pointer; color: rgb(5, 5, 5); border-radius: 0.5rem; font-size: 14px; outline: none; border: none; font-family: 'Courier New', Courier, monospace;"
-            type="submit" id="button" onclick="createQRCode()">Create QR Code</button>
+        <button type="submit" id="button" onclick="createQRCode()">Create QR Code</button>
     <br>
         <button 
-            id="save" type="submit" style="position: relative; background-color: rgb(252, 252, 249); margin-top: 17px;margin-left: 105px; width: 175px; height: 30px; cursor: pointer; color: rgb(5, 5, 5); border-radius: 0.5rem; font-size: 14px; outline: none; border: none; font-family: 'Courier New', Courier, monospace; display: none;"
-            onclick="printDiv()">Print QR Code</button> 
+            id="save" type="submit" onclick="printDiv()">Print QR Code</button> 
     </div>
 
     <div id="code">
-        <div style="position:fixed; top:50%; left:50%; margin-top:-125px; margin-left:-350px; height:255px; width:255px; background-color: white; border: 5px solid white; border-radius: 5%; align-content: center; padding: 1%;" id=qrcode></div>    
-        <img src="https://www.millerequipmentsales.com/siteart/Miller-Equipment-and-Truck-Sales-LLC-logo.png" id="center" style="width: 160px; height:40px; position: fixed; top: 50%; left: 50%; margin-left:-277px; margin-top: -13px; background-color: #FFF; border-radius: 5%; display: none; float: left; padding: 0.5%;"></img>
+        <div id=qrcode></div>    
+        <img src="https://www.millerequipmentsales.com/siteart/Miller-Equipment-and-Truck-Sales-LLC-logo.png" id="center"></img>
     </div>
 
 <script src="index.js"></script>
