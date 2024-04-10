@@ -1,23 +1,29 @@
 body {
-    background-color: black;
+    background-color: #181818;
 }
-#container {
+#bottom {
     position:fixed;
-    top: 50%;
-    left: 50%;
-    margin-left: -45px;
-    margin-top: -140px;
+    top: 85%;
+    width: 90%;
+    left: 4%;
+    height: 12%;
+    background-color: #121212;
+    border-radius: 0.5rem;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+#left {
+    float: left;
 }
 h1 {
     color: rgb(250, 246, 246); 
     font-size: 52px;
-    margin-left: 55px;
+    margin-left: 0px;
+    margin-top: 5px;
 }
-p {
-    color: cornsilk; 
-    margin-left: 90px; 
-    margin-top: -40px; 
-    font-size: 14px;
+#right {
+    float: right;
+    margin-top: 25px;
 }
 #input {
     color: rgb(247, 245, 245); 
@@ -25,17 +31,18 @@ p {
     height: 30px; 
     width: 400px; 
     font-size: 14px; 
-    margin-top: 28px; 
+    margin-top: 0px; 
     border-radius: 0.5rem; 
     border: none; 
     outline: none; 
     text-align: center; 
     font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
 }
 #button {
     background-color: rgb(252, 252, 249); 
-    margin-top: 17px;
-    margin-left: 105px; 
+    margin-top: 0px;
+    margin-left: 5px; 
     width: 175px; 
     height: 30px; 
     cursor: pointer; 
@@ -45,35 +52,17 @@ p {
     outline: none; 
     border: none; 
     font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
 }
 #button:hover {
-    transform: scale(1.1);
-}
-#save {
-    position: relative; 
-    background-color: rgb(252, 252, 249); 
-    margin-top: 17px;
-    margin-left: 105px; 
-    width: 175px; 
-    height: 30px; 
-    cursor: pointer; 
-    color: rgb(5, 5, 5); 
-    border-radius: 0.5rem; 
-    font-size: 14px; 
-    outline: none; 
-    border: none; 
-    font-family: 'Courier New', Courier, monospace; 
-    display: none;
-}
-#save:hover {
-    transform: scale(1.1);
+    opacity: 40%;
 }
 #qrcode {
     position:fixed; 
     top:50%; 
     left:50%; 
-    margin-top:-125px; 
-    margin-left:-350px; 
+    margin-top:-175px; 
+    margin-left: -150px; 
     height:255px; 
     width:255px; 
     background-color: white; 
@@ -81,25 +70,31 @@ p {
     border-radius: 5%; 
     align-content: center; 
     padding: 1%;
+    display: none;
 }
 #center {
-    width: 160px; 
-    height:40px; 
+    width: 130px; 
+    height:60px; 
     position: fixed; 
     top: 50%; 
     left: 50%; 
-    margin-left:-277px; 
-    margin-top: -13px; 
+    margin-left: -70px; 
+    margin-top: -63px; 
     background-color: #FFF; 
     border-radius: 5%; 
     display: none; 
     float: left; 
     padding: 0.5%;
 }
-#footer {
-    color:cornsilk; 
-    position:fixed; 
-    top:97%; 
-    left:100%; 
-    margin-left: -180px;
+#square {
+    height: 75%;
+    width: 90%;
+    background-color: #121212;
+    display: inline;
+    position: fixed;
+    border-radius: 0.5rem;
+    top: 5%;
+    left: 4%;
+    padding-left: 1%;
+    padding-right: 1%;
 }
