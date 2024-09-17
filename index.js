@@ -11,7 +11,7 @@ input.addEventListener('click', function () {
 
 function createQRCode() {
     if (input.value != '') {
-        new QRCode(document.getElementById("qrcode"), { text: input.value, colorDark: "#fd7e14", colorLight: "#FFF" });
+        new QRCode(document.getElementById("qrcode"), { text: input.value, colorDark: "#000", colorLight: "#FFF" });
         x.style.display = "inline";
         center.style.display = "inline";
         input.value = '';
