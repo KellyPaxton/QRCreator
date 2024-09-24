@@ -15,12 +15,6 @@ body {
 #left {
     float: left;
 }
-h1 {
-    color: rgb(250, 246, 246); 
-    font-size: 52px;
-    margin-left: 0px;
-    margin-top: 5px;
-}
 #right {
     float: right;
     margin-top: 25px;
