@@ -23,9 +23,10 @@ body {
     color: rgb(247, 245, 245); 
     background-color: rgb(56, 56, 55); 
     height: 30px; 
-    width: 1000px; 
+    width: 1045px; 
     font-size: 14px; 
-    margin-top: 0px; 
+    margin-top: 0px;
+    margin-left: 0px;
     border-radius: 0.5rem; 
     border: none; 
     outline: none; 
@@ -36,7 +37,7 @@ body {
 #button {
     background-color: rgb(252, 252, 249); 
     margin-top: 0px;
-    margin-left: 5px; 
+    margin-left: 0px; 
     width: 175px; 
     height: 30px; 
     cursor: pointer; 
