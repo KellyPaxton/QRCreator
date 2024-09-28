@@ -69,17 +69,24 @@ body {
 }
 #center {
     width: 150px; 
-    height: 50px; 
+    height: 16px; 
     position: fixed; 
-    top: 50%; 
+    top: 52.5%; 
     left: 50%; 
     margin-left: -85px; 
     margin-top: -60px; 
-    background-color: #000; 
+    background-color: #fff; 
     border-radius: 5%;
     display: none; 
     float: left; 
     padding: 0.5%;
+}
+#center-text {
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: -7.5px;
 }
 #square {
     height: 75%;
